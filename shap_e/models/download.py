@@ -43,7 +43,7 @@ URL_HASHES = {
 
 @lru_cache()
 def default_cache_dir() -> str:
-    return os.path.join(os.path.abspath(os.getcwd()), "custom/threestudio-shap-E/shap-e/cache")
+    return os.path.join(os.path.abspath(os.getcwd()), "custom/threestudio-shap-e/shap-e/cache")
 
 
 def fetch_file_cached(
